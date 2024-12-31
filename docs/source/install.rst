@@ -1,5 +1,5 @@
 
-Quick Start
+Installation
 =====
 
 # Quail QFieldCloud Plugin
