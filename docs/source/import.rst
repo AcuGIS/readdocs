@@ -4,30 +4,32 @@ Import Project
 
 Click the Import button at top right to import your Project(s) and sync to PostGIS
 
-Enter your QFieldCloud uername, password, and QFieldCloud url (works with qfield.cloud and self-hosted).  Click Load Projects.
+Enter your QFieldCloud uername, password, and QFieldCloud url (works with qfield.cloud and self-hosted).  
+
+Click the Load Projects icon
 
 
-quail-qfield-cloud-load-project.png
+.. image:: _static/quail-qfield-cloud-load-project.png
 
 
 Select the Project to Sync
 
-quail-qfield-cloud-load-project-2.png
+.. image:: _static/quail-qfield-cloud-load-project-2.png
 
 Create a new PostGIS database or select an existing PostGIS database
 
 
-quail-qfield-cloud-load-project-3.png
+.. image:: _static/quail-qfield-cloud-load-project-3.png
 
 Click the Import button
 
 
-quail-qfield-cloud-load-project-4.png
+.. image:: _static/quail-qfield-cloud-load-project-4.png
 
 
 Start your service(s) and verify it is running
 
-quail-qfield-cloud-plugin.png
+.. image:: _static/quail-qfield-cloud-plugin.png
 
 
 # script settings
