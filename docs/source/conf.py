@@ -51,6 +51,6 @@ pygments_style = "sphinx"
 
 html_logo = "qwc2-docs.png"
 html_theme_options = {
-    'logo_only': False,
+    'logo_only': True,
     'display_version': False,
 }
