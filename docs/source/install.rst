@@ -41,6 +41,17 @@ Execute the scripts in order.
 
 Go to QFieldCloud Plugin and verify installation.
 
-.. image:: static/quail-qfield-cloud-load-project.png
+.. image:: _static/plugin-install-confirm.png
+
+
+
+plugin-installed.png
+quail-qfield-cloud-load-project.png
+quail-qfield-cloud-load-project-2.png
+quail-qfield-cloud-load-project-3.png
+quail-qfield-cloud-load-project-4.png
+quail-qfield-cloud-plugin.png
+upload-in-progress.png
+upload-in-progress-2.png
 
 
