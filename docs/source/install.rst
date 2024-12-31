@@ -1,6 +1,6 @@
 
 Installation
-=====
+==============
 
 # Quail QFieldCloud Plugin
 
@@ -12,46 +12,45 @@ You can select the Project(s) to sync, as well as the sync interval.
 Projects can be sync'd to existing PostGIS databases, or you can create new PostGIS databases using the plugin.
 
 
-## Installation
+## Installing
 
 **1. Download and unzip file**.
 
-.. note::
-    This plugin assumes standard Quail directory paths
+This plugin assumes standard Quail directory paths
 
 **2. Change to the plugin directory**
 
-   
-cd quail-qfield-plugin
+.. code-block:: console
+
+    cd quail-qfield-plugin
 
 
 **3. Execute the prepare-plugin.sh file**
 
-  
-chmod +x prepare-plugin.sh   
-./prepare-plugin.sh.sh
+.. code-block:: console
+    chmod +x prepare-plugin.sh   
+    ./prepare-plugin.sh.sh
 
 
 **4. Execute the prepare-plugin.sh file**
 
 **Note: you can also manualy copy contents of usr, home, etc. and var directories**
 
+.. code-block:: console
 
-chmod +x install-plugin.sh   
+    chmod +x install-plugin.sh   
 
-```
 
 **5. Run set-permissions.sh**
 
-
-
-chmod +x set-permissions.sh   
-./set-permissions.sh
+.. code-block:: console
+    chmod +x set-permissions.sh   
+    ./set-permissions.sh
 
 
 Go to QFieldCloud Plugin and verify installation.
 
-.. note:: static/plugin-install-confirm.png
+static/plugin-install-confirm.png
 
 ## Usage
 
@@ -60,23 +59,27 @@ Click the Import button at top right to import your Project(s) and sync to PostG
 1. Enter your QFieldCloud uername, password, and QFieldCloud url (works with qfield.cloud and self-hosted).  Click Load Projects.
 
 
-![Quail QField Plugin Installed](static/quail-qfield-cloud-load-project.png)
+static/quail-qfield-cloud-load-project.png
+
 
 2. Select the Project to Sync
 
-.. note:: static/quail-qfield-cloud-load-project-2.png
+static/quail-qfield-cloud-load-project-2.png
 
 3. Create a new PostGIS database or select an existing PostGIS database
 
-.. note:: static/quail-qfield-cloud-load-project-3.png
+
+static/quail-qfield-cloud-load-project-3.png
 
 5. Click the Import button
 
-.. note:: static/quail-qfield-cloud-load-project-4.png
+
+static/quail-qfield-cloud-load-project-4.png
+
 
 Start your service(s) and verify it is running
 
-.. note:: static/quail-qfield-cloud-plugin.png)
+static/quail-qfield-cloud-plugin.png)
 
 
 # script settings
@@ -98,11 +101,12 @@ pg_pass='YourDatabasePassword'
 pg_dbname='YourDatabaseName'
 pg_schema='Your_data'
 
-```
+
 
 If you need a database, you can create one on the local server
 
-```sql
+.. code-block:: console
+
 postgres=# create user beeuser with password 'SuperSecret';
 CREATE ROLE
 postgres=# create database beedb with owner beeuser;
@@ -112,12 +116,12 @@ You are now connected to database "beedb" as user "postgres".
 beedb=# CREATE EXTENSION postgis;
 CREATE EXTENSION
 beedb=#
-```
+
 
 Check your datbase to see it is pulling data from your project
 
 
-```sql
+
 
 postgres=# \c beedb
 beedb=# \dn
@@ -148,7 +152,7 @@ beedb=# select bee_species from bee_data.apiary LIMIT 5;
  Apis Mellifera Carnica
 (5 rows)
 
-```
+
 
 
 Based on Mergin Maps db-sync, qfield-db-sync provides synchronization between QFieldCloud and PostGIS
