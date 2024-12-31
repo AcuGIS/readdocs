@@ -16,7 +16,7 @@ Contents
 .. toctree::
 
    intro
-   quickstart
+   install
    quick-dynamic
    createdb
    dashboard
