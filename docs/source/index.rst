@@ -3,7 +3,10 @@ Quail QField Plugin
 
 **Quail QField Plugin Docs**
 
-   .. image:: images/qwc-main.png
+   
+
+   .. image:: qf-2.png
+
 
 
 
