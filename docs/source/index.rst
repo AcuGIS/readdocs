@@ -17,7 +17,7 @@ Contents
 
    intro
    install
-   quick-dynamic
+   import
    createdb
    dashboard
    users
