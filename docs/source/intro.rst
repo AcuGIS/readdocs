@@ -1,15 +1,15 @@
 Introduction
 =====
 
-AcuGIS QWC2 Hosting provides a fully dedicated QGIS Web Client 2 hosting environment.
+The Quail QFieldCloud plugin synchronizes your QFieldCloud data to PostGIS.
 
-A full function control panel for publishing and sharing maps is also included. 
+You can sync to a remote or new local PostGIS database.
 
-Your maps are secured via your portal and can be connected to their original PostGIS or GeoServer data sources.
+The synchronization service runs in the background at the interval you speficiy.  When you mobile is updated, your PostGIS database is updated.
 
-You can also create new PostGIS Databases from your QGIS Projects as well.
+You can also publish your data as WMS via Quail using either the PostGIS data or your QGIS Project.
 
 
- .. image:: images/qwc-main.png
+   .. image:: qf-1.png
 
 
