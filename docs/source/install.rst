@@ -2,16 +2,6 @@
 Installation
 ==============
 
-# Quail QFieldCloud Plugin
-
-
-Quail QFieldCloud Plugin syncs your QFieldCloud project data to PostGIS.
-
-You can select the Project(s) to sync, as well as the sync interval.
-
-Projects can be sync'd to existing PostGIS databases, or you can create new PostGIS databases using the plugin.
-
-
 ## Installing
 
 **1. Download and unzip file**.
@@ -50,7 +40,7 @@ This plugin assumes standard Quail directory paths
 
 Go to QFieldCloud Plugin and verify installation.
 
-static/plugin-install-confirm.png
+plugin-install-confirm.png
 
 ## Usage
 
@@ -59,27 +49,27 @@ Click the Import button at top right to import your Project(s) and sync to PostG
 1. Enter your QFieldCloud uername, password, and QFieldCloud url (works with qfield.cloud and self-hosted).  Click Load Projects.
 
 
-static/quail-qfield-cloud-load-project.png
+quail-qfield-cloud-load-project.png
 
 
 2. Select the Project to Sync
 
-static/quail-qfield-cloud-load-project-2.png
+quail-qfield-cloud-load-project-2.png
 
 3. Create a new PostGIS database or select an existing PostGIS database
 
 
-static/quail-qfield-cloud-load-project-3.png
+quail-qfield-cloud-load-project-3.png
 
 5. Click the Import button
 
 
-static/quail-qfield-cloud-load-project-4.png
+quail-qfield-cloud-load-project-4.png
 
 
 Start your service(s) and verify it is running
 
-static/quail-qfield-cloud-plugin.png)
+quail-qfield-cloud-plugin.png)
 
 
 # script settings
@@ -158,11 +148,6 @@ beedb=# select bee_species from bee_data.apiary LIMIT 5;
 Based on Mergin Maps db-sync, qfield-db-sync provides synchronization between QFieldCloud and PostGIS
 
 qfield-db-sync works with qfield.cloud as well as self hosted qfieldcloud instances.
-
-
-  
-
-
 
 
 
