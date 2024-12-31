@@ -17,6 +17,33 @@ Installation is done via the install scripts located in the /installer directory
 Values
 =======================
 
+A default ini is included with installation, survey.ini
+
+The contents are below
+
+.. code-block:: console
+
+
+   # script settings
+   sleep_time=600
+   single_run='false'
+   force_init='true'
+   data_dir="${HOME}/data/survey"
+   # QField Cloud settings
+   qf_user='YourQFieldUsername'
+   qf_pass='YourQFieldPassword'
+   qf_url='https://app.qfield.cloud/api/v1/'
+   qf_proj_id='2r56c287-f8cc-470c-92e1-121358t4g8d6'
+   qf_gpkg='YourGeoPackage'
+   # database settings
+   pg_host='localhost'
+   pg_port='5432'
+   pg_user='YourDatabaseUser'
+   pg_pass='YourDatabasePassword'
+   pg_dbname='YourDatabaseName'
+   pg_schema='your_data'
+
+
 Edit
 =======================
 
