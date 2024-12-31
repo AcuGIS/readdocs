@@ -1,7 +1,7 @@
-QWC2 Hosting Docs 
+Quail QField Plugin
 ===================================
 
-**QWC2 Hosting Docs**
+**Quail QField Plugin Docs**
 
    .. image:: images/qwc-main.png
 
