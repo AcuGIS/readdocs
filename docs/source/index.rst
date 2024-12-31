@@ -18,8 +18,8 @@ Contents
    intro
    install
    import
+   parameters
    createdb
-   dashboard
    users
    groups
    qwctools
