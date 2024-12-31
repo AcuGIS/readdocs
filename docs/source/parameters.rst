@@ -21,7 +21,7 @@ A default ini is included with installation, survey.ini
 
 The contents are below
 
-.. code-block:: console
+.. code-block:: python
 
 
    # script settings
@@ -44,35 +44,40 @@ The contents are below
    pg_schema='your_data'
 
 
+**sleep_time** The amount of time in seconds between checking for updates.
+
+**single_run** Do only one sync run and stop
+
+**force_init** Force initialization process (recreate schema)
+
+
 Edit
 =======================
 
-Use Git or download the Quail QField Plugin
+You can edit an ini file using the plugin editor or manually at /home/qfield/<project>.ini
 
-.. code-block:: console
+To edit the file using the plugin, click the edit icon at right for the project
 
-    git clone https://github.com/AcuGIS/quail-qfield-plugin.git
+.. image:: _static/edit-ini-file.png
+
+Make any changes and click Submit.
+
+.. warning::
+
+   You must restart the service for your project if you update the ini parameters
 
 Versioning
 =======================
 
-.. code-block:: console
+Each time an edit is made, the previous version is backed up to disk.
 
-    cd quail-qfield-plugin
+The form of the backup is <project>.ini-TIMESTAMP
+
+.. image:: _static/ini-version.png
+
+You can revert to a previous version by selecting it from the dropdown.
     
 
-Execute the scripts in order.
-
-.. code-block:: console
- 
-    ./prepare-plugin.sh.sh
-    ./install-plugin.sh.sh
-    ./set-permissions.sh
-
-
-Go to QFieldCloud Plugin and verify installation.
-
-.. image:: _static/plugin-install-confirm.png
 
 
 
