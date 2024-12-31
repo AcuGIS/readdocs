@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'QuartzMap'
+project = 'Quail QField Plugin'
 copyright = '2024, Cited, Inc.'
 author = 'Cited Inc'
 
