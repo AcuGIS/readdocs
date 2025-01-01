@@ -18,6 +18,7 @@ Contents
    intro
    install
    import
+   parameters
    publish
    createdb   
   
