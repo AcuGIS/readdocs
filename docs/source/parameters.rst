@@ -12,7 +12,14 @@ Parameters
 
 .. contents:: Table of Contents
 
-Installation is done via the install scripts located in the /installer directory.
+Installation uses a default template, survey.ini, for creating initialization file.
+
+When you add your QFieldCloud projects, an .ini file is created for each project.
+
+You can customize these files to suit your needs.
+
+The ini editor maintains a timestamped version of each edit made.
+
 
 Values
 =======================
