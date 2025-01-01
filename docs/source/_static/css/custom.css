@@ -1,7 +1,7 @@
 .wy-nav-content {
    max-width: 1350px;
 }
-.wy-side-nav-search {
+/*.wy-side-nav-search {
     display: block;
     width: 300px;
     padding: .809em;
@@ -10,7 +10,7 @@
     background-color: #fff;
     text-align: center;
     color: #fcfcfc;
-}
+}*/
 
 .highlight {
     background: #ffffff !important;
