@@ -18,20 +18,9 @@ Contents
    intro
    install
    import
-   parameters
-   createdb
-   users
-   groups
-   qwctools
-   qwcadmin
-   tenant
-   maps
-   css
-   pdf
-   services
-   permalinks
-   sentinel
-   frontend
+   publish
+   createdb   
+  
 
 
 
